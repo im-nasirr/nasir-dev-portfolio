@@ -6,7 +6,7 @@ import {
   FaThreads,
 } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
-import { SiBluesky } from "react-icons/si";
+import { SiBluesky, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import {
   RiNextjsFill,
   RiTailwindCssFill,
@@ -97,16 +97,16 @@ export const siteConfig = {
     ],
     aboutMe: `
            <p>
-  Hello! I'm a Frontend Developer passionate about building modern, responsive, and visually appealing web experiences. With one year of experience, I leverage JavaScript, TypeScript, React, Next.js, Redux, HTML5, and CSS3 (including Sass) to create performant and user-centric interfaces.
-</p>
-<br />
-<p>
-  My focus is on transforming creative designs into clean, efficient, and scalable code. I value seamless user experiences and optimize for performance. I'm also comfortable with collaborative development environments, utilizing tools like Git to streamline workflows.
-</p>
-<br />
-<p>
-  I enjoy partnering with design and product teams to deliver digital solutions that meet strategic goals. My curiosity drives me to continuously learn and apply the latest frontend innovations. Let's discuss how I can contribute to your next project!
-</p>
+            Hello! I'm a Frontend Developer passionate about building modern, responsive, and visually appealing web experiences. With one year of experience, I leverage JavaScript, TypeScript, React, Next.js, Redux, HTML5, and CSS3 (including Tailwind CSS) to create performant and user-centric interfaces.
+          </p>
+            <br />
+            <p>
+              My focus is on transforming creative designs into clean, efficient, and scalable code. I value seamless user experiences and optimize for performance. I'm also comfortable with collaborative development environments, utilizing tools like Git to streamline workflows.
+            </p>
+            <br />
+            <p>
+              I enjoy partnering with design and product teams to deliver digital solutions that meet strategic goals. My curiosity drives me to continuously learn and apply the latest frontend innovations. Let's discuss how I can contribute to your next project!
+            </p>
         `,
     experiences: [
       {
@@ -134,219 +134,125 @@ export const siteConfig = {
     ],
     projects: [
       {
-        title: "Nasir Portfolio",
+        title: "Phantom",
         description:
-          "My personal portfolio website showcasing my projects and skills. Built with Next.js, Tailwind CSS, and TypeScript.",
-        logo: "/projects/portfolio/portfolio-logo.webp",
-        thumbnail: "/projects/portfolio/portfolio-thumbnail.webp",
+          "A dynamic digital agency landing page with smooth scroll-driven animations and immersive style. Crafted using Next.js, Tailwind CSS, and Framer Motion for a bold, interactive feel.",
+        logo: "/projects/phantom/logo.webp",
+        thumbnail: "/projects/phantom/thumbnail.webp",
+        repoLink: "https://github.com/im-nasirr/Phantom.git",
         technologies: [
-          {
-            icon: <RiNextjsFill className="text-[#FFF]" />,
-            name: "Next.js",
-          },
-          {
-            icon: <RiTailwindCssFill className="text-[#06B6D4]" />,
-            name: "Tailwind CSS",
-          },
-          {
-            icon: <SiShadcnui className="text-[#FFF]" />,
-            name: "Shadcn/UI",
-          },
-          {
-            icon: <SiTypescript className="text-[#3178C6]" />,
-            name: "TypeScript",
-          },
+          { icon: <SiNextdotjs />, name: "Next.js" },
+          { icon: <SiTailwindcss />, name: "Tailwind CSS" },
+          { icon: <SiFramer />, name: "Framer Motion" },
         ],
-        link: "https://nasir-portfolio.vercel.app",
+        link: "https://phantom-theta.vercel.app/",
         previewImages: [
-          "/projects/portfolio/1.webp",
-          "/projects/portfolio/2.webp",
-          "/projects/portfolio/3.webp",
-          "/projects/portfolio/4.webp",
-          "/projects/portfolio/5.webp",
-          "/projects/portfolio/6.webp",
+          "/projects/phantom/1.png",
+          "/projects/phantom/2.png",
+          "/projects/phantom/3.png",
         ],
-        previewVideos: [
-          "https://video-proxy-worker.alvs131313.workers.dev/portfolio-video-4k/output.m3u8",
-        ],
+        previewVideos: [],
       },
       {
-        title: "Genzify AI",
+        title: "E-Commerce Front‑End",
         description:
-          "GenZify is an AI-powered tool I developed to transform everyday text into trendy Gen Z-style language. I managed both the front-end design and back-end development, integrating AI functionality for smooth and creative rephrasings. The platform delivers a fun, engaging experience, perfect for anyone looking to add a modern twist to their communication. This project highlights my skills in blending AI with user-centric design to create a playful, interactive web tool.",
-        logo: "/projects/genz/genz-logo.webp",
-        thumbnail: "/projects/genz/genz-thumbnail.webp",
-        repoLink: "https://github.com/auroradream04/genzify-app",
+          "A clean and responsive storefront demo featuring intuitive product layouts and streamlined navigation. Built with React and Tailwind CSS, it focuses on modular design and rapid performance.",
+        logo: "/projects/ecommerce/logo.webp",
+        thumbnail: "/projects/ecommerce/thumbnail.webp",
+        repoLink: "https://github.com/im-nasirr/ecommerce-front-end.git",
         technologies: [
-          {
-            icon: <RiNextjsFill className="text-[#FFF]" />,
-            name: "Next.js",
-          },
-          {
-            icon: <RiOpenaiFill className="text-[#412991]" />,
-            name: "OpenAI API",
-          },
-          {
-            icon: <RiTailwindCssFill className="text-[#06B6D4]" />,
-            name: "Tailwind CSS",
-          },
-          {
-            icon: <SiTypescript className="text-[#3178C6]" />,
-            name: "TypeScript",
-          },
-          {
-            icon: <SiShadcnui className="text-[#FFF]" />,
-            name: "Shadcn/UI",
-          },
+          { icon: <SiReact />, name: "React" },
+          { icon: <SiTailwindcss />, name: "Tailwind CSS" },
         ],
-        link: "https://genzify-app-wine.vercel.app/",
+        link: "https://ecommerce-front-end-mu.vercel.app/",
         previewImages: [
-          "/projects/genz/1.webp",
-          "/projects/genz/2.webp",
-          "/projects/genz/3.webp",
-          "/projects/genz/4.webp",
-          "/projects/genz/5.webp",
+          "/projects/ecommerce/1.png",
+          "/projects/ecommerce/2.png",
+          "/projects/ecommerce/3.png",
         ],
-        previewVideos: [
-          "https://video-proxy-worker.alvs131313.workers.dev/genz-video-4k/output.m3u8",
+        previewVideos: [],
+      },
+
+      {
+        title: "NFT Dashboard",
+        description:
+          "An interactive analytics dashboard for NFTs, featuring intuitive UI components and real‑time layout. Built with React and Tailwind CSS to organize and display NFT data cleanly.",
+        logo: "/projects/nft-dashboard/logo.webp",
+        thumbnail: "/projects/nft-dashboard/thumbnail.webp",
+        repoLink: "https://github.com/im-nasirr/nft_dashboard.git",
+        technologies: [
+          { icon: <SiReact />, name: "React" },
+          { icon: <SiTailwindcss />, name: "Tailwind CSS" },
         ],
+        link: "https://nft-dashboard-5tn8.vercel.app/",
+        previewImages: [
+          "/projects/nft-dashboard/1.png",
+          "/projects/nft-dashboard/2.png",
+          "/projects/nft-dashboard/3.png",
+        ],
+        previewVideos: [],
       },
       {
-        title: "WhatAboutPets",
+        title: "Furniro (Imtiaz Furniture)",
         description:
-          "WhatAboutPets is a comprehensive blog and e-commerce platform I built to provide valuable insights into pet care, health, and wellness. Alongside engaging articles, the site features an integrated WooCommerce store, offering a variety of pet-related products. I managed everything from designing the user-friendly interface to implementing SEO strategies and setting up the online shop. This project highlights my expertise in both content-driven sites and e-commerce solutions, creating a complete experience for pet lovers.",
-        logo: "/projects/whataboutpets/whataboutpets-logo.webp",
-        thumbnail: "/projects/whataboutpets/whataboutpets-thumbnail.webp",
-        repoLink: "",
+          "A stylish furniture showcase featuring animated transitions and modern layout for enhanced product exploration. Built with React and Framer Motion for a fluid, engaging UI.",
+        logo: "/projects/furniro/logo.webp",
+        thumbnail: "/projects/furniro/thumbnail.webp",
+        repoLink: "https://github.com/im-nasirr/imtiaz-furniro.git",
         technologies: [
-          {
-            icon: <RiNextjsFill className="text-[#FFF]" />,
-            name: "Next.js",
-          },
-          {
-            icon: <RiWordpressFill className="text-[#21759B]" />,
-            name: "WordPress",
-          },
-          {
-            icon: <SiTypescript className="text-[#3178C6]" />,
-            name: "TypeScript",
-          },
-          {
-            icon: <RiTailwindCssFill className="text-[#06B6D4]" />,
-            name: "Tailwind CSS",
-          },
-          {
-            icon: <SiShadcnui className="text-[#FFF]" />,
-            name: "Shadcn/UI",
-          },
-          {
-            icon: <GrGraphQl className="text-[#E10098]" />,
-            name: "GraphQL",
-          },
-          {
-            icon: <SiWoocommerce className="text-[#96588A]" />,
-            name: "Woocommerce",
-          },
+          { icon: <SiReact />, name: "React" },
+          { icon: <SiFramer />, name: "Framer Motion" },
+          { icon: <SiTailwindcss />, name: "Tailwind CSS" },
         ],
-        link: "https://whataboutpets.com",
+        link: "https://imtiaz-furniro.vercel.app/",
         previewImages: [
-          "/projects/whataboutpets/1.webp",
-          "/projects/whataboutpets/2.webp",
-          "/projects/whataboutpets/3.webp",
-          "/projects/whataboutpets/4.webp",
-          "/projects/whataboutpets/5.webp",
-          "/projects/whataboutpets/6.webp",
+          "/projects/furniro/1.png",
+          "/projects/furniro/2.png",
+          "/projects/furniro/3.png",
         ],
-        previewVideos: [
-          "https://video-proxy-worker.alvs131313.workers.dev/whataboutpets-video-4k/output.m3u8",
-        ],
+        previewVideos: [],
       },
       {
-        title: "Plaiful - AI Agent Directory",
+        title: "Unda Quest",
         description:
-          "Developed for a client, Plaiful is a comprehensive AI agent directory platform built on Next.js. This project involved significant customization of the OpenAlternative codebase to create a dedicated platform for discovering and comparing AI agents focused on the banking and credit union sector. I implemented advanced filtering, search capabilities, and built a modern, intuitive interface for users to easily find AI solutions tailored to their specific needs.",
-        logo: "/projects/plaiful/plaiful-logo.webp",
-        thumbnail: "/projects/plaiful/plaiful-thumbnail.webp",
-        repoLink: "https://github.com/Plaifully/Plai",
+          "A bold, adventure-inspired landing page with vibrant visuals and dynamic animations. Built with React and Framer Motion to create an immersive first impression.",
+        logo: "/projects/unda-quest/logo.webp",
+        thumbnail: "/projects/unda-quest/thumbnail.webp",
+        repoLink: "https://github.com/im-nasirr/unda_quest.git",
         technologies: [
-          {
-            icon: <RiNextjsFill className="text-[#FFF]" />,
-            name: "Next.js",
-          },
-          {
-            icon: <SiTypescript className="text-[#3178C6]" />,
-            name: "TypeScript",
-          },
-          {
-            icon: <RiTailwindCssFill className="text-[#06B6D4]" />,
-            name: "Tailwind CSS",
-          },
-          {
-            icon: <SiPrisma className="text-[#2D3748]" />,
-            name: "Prisma",
-          },
-          {
-            icon: <SiSupabase className="text-[#0084d4]" />,
-            name: "Supabase",
-          },
+          { icon: <SiReact />, name: "React" },
+          { icon: <SiFramer />, name: "Framer Motion" },
+          { icon: <SiTailwindcss />, name: "Tailwind CSS" },
         ],
-        link: "https://plai-web.vercel.app/",
+        link: "https://unda-quest.vercel.app/",
         previewImages: [
-          "/projects/plaiful/1.webp",
-          "/projects/plaiful/2.webp",
-          "/projects/plaiful/3.webp",
-          "/projects/plaiful/4.webp",
-          "/projects/plaiful/5.webp",
-          "/projects/plaiful/6.webp",
+          "/projects/unda-quest/1.png",
+          "/projects/unda-quest/2.png",
+          "/projects/unda-quest/3.png",
         ],
-        previewVideos: [
-          "https://video-proxy-worker.alvs131313.workers.dev/plaiful-video-4k/output.m3u8",
-        ],
+        previewVideos: [],
       },
       {
-        title: "Zambia Casino",
+        title: "Ready Sell",
         description:
-          "Built for a client, Zambia Casino is a sleek landing page for an online casino targeting the Zambian market. I designed and developed a responsive, high-performance site that effectively showcases the casino's offerings, promotions, and games. The project emphasizes strong visual elements, fast loading times, and intuitive navigation to optimize user engagement and conversion rates in the competitive online gambling space.",
-        logo: "/projects/zambia/zambia-logo.webp",
-        thumbnail: "/projects/zambia/zambia-thumbnail.webp",
-        repoLink: "",
+          "A minimalist product landing page optimized for speed and conversions with smooth scroll and clean layout. Built with Next.js and Tailwind CSS for responsiveness and swift performance.",
+        logo: "/projects/ready-sell/logo.webp",
+        thumbnail: "/projects/ready-sell/thumbnail.webp",
+        repoLink: "https://github.com/im-nasirr/ready-sell",
         technologies: [
-          {
-            icon: <RiNextjsFill className="text-[#FFF]" />,
-            name: "Next.js",
-          },
-          {
-            icon: <SiTypescript className="text-[#3178C6]" />,
-            name: "TypeScript",
-          },
-          {
-            icon: <RiTailwindCssFill className="text-[#06B6D4]" />,
-            name: "Tailwind CSS",
-          },
-          {
-            icon: <SiFramer className="text-[#0055FF]" />,
-            name: "Framer Motion",
-          },
-          {
-            icon: <SiShadcnui className="text-[#FFF]" />,
-            name: "Shadcn/UI",
-          },
+          { icon: <SiNextdotjs />, name: "Next.js" },
+          { icon: <SiTailwindcss />, name: "Tailwind CSS" },
         ],
-        link: "https://zambia-casino.vercel.app/",
+        link: "https://ready-sell.vercel.app/",
         previewImages: [
-          "/projects/zambia/1.webp",
-          "/projects/zambia/2.webp",
-          "/projects/zambia/3.webp",
-          "/projects/zambia/4.webp",
-          "/projects/zambia/5.webp",
-          "/projects/zambia/6.webp",
-          "/projects/zambia/7.webp",
+          "/projects/ready-sell/1.png",
+          "/projects/ready-sell/2.png",
+          "/projects/ready-sell/3.png",
         ],
-        previewVideos: [
-          "https://video-proxy-worker.alvs131313.workers.dev/zambia-video-4k/output.m3u8",
-        ],
+        previewVideos: [],
       },
     ],
+
     technologies: {
       main: [
         {
@@ -374,36 +280,28 @@ export const siteConfig = {
           icon: <SiGit className="text-[#F05032]" />,
           description: "A version control system",
         },
-        {
-          name: "Prisma",
-          icon: <SiPrisma className="text-[#4a5b77]" />,
-          description: "An ORM for databases",
-        },
-        {
-          name: "WordPress",
-          icon: <RiWordpressFill className="text-[#21759B]" />,
-          description: "A CMS for websites",
-        },
+        // {
+        //   name: "Prisma",
+        //   icon: <SiPrisma className="text-[#4a5b77]" />,
+        //   description: "An ORM for databases",
+        // },
+        // {
+        //   name: "WordPress",
+        //   icon: <RiWordpressFill className="text-[#21759B]" />,
+        //   description: "A CMS for websites",
+        // },
         {
           name: "Express.js",
           icon: <SiExpress className="text-[#FFF]" />, // ORIGINALLY BLACK
           description: "A Node.js framework",
         },
-        {
-          name: "Puppeteer",
-          icon: <SiPuppeteer className="text-[#7a56f1]" />,
-          description: "A library for browser automation",
-        },
-      ],
-      other: [
-        {
-          name: "HTML5",
-          icon: <SiHtml5 className="text-[#E34F26]" />,
-        },
-        {
-          name: "CSS",
-          icon: <SiCss3 className="text-[#009df7]" />,
-        },
+
+        // {
+        //   name: "Puppeteer",
+        //   icon: <SiPuppeteer className="text-[#7a56f1]" />,
+        //   description: "A library for browser automation",
+        // },
+
         {
           name: "JavaScript",
           icon: <SiJavascript className="text-[#F7DF1E]" />,
@@ -413,21 +311,37 @@ export const siteConfig = {
           icon: <SiNodedotjs className="text-[#339933]" />,
         },
         {
-          name: "PHP",
-          icon: <SiPhp className="text-[#5d6dad]" />,
-        },
-        {
-          name: "MySQL",
-          icon: <SiMysql className="text-[#5798ca]" />,
-        },
-        {
-          name: "Supabase",
-          icon: <SiSupabase className="text-[#0084d4]" />,
-        },
-        {
           name: "MongoDB",
           icon: <SiMongodb className="text-[#47A248]" />,
         },
+        {
+          name: "HTML5",
+          icon: <SiHtml5 className="text-[#E34F26]" />,
+        },
+        {
+          name: "CSS",
+          icon: <SiCss3 className="text-[#009df7]" />,
+        },
+        {
+          name: "Shadcn/UI",
+          icon: <SiShadcnui className="text-[#FFF]" />,
+        },
+      ],
+      other: [
+        {
+          name: "HTML5",
+          icon: <SiHtml5 className="text-[#E34F26]" />,
+        },
+
+        // {
+        //   name: "MySQL",
+        //   icon: <SiMysql className="text-[#5798ca]" />,
+        // },
+        // {
+        //   name: "Supabase",
+        //   icon: <SiSupabase className="text-[#0084d4]" />,
+        // },
+
         {
           name: "Redis",
           icon: <DiRedis className="text-[#DC382D]" />,
@@ -464,10 +378,7 @@ export const siteConfig = {
           name: "Docker",
           icon: <SiDocker className="text-[#2496ED]" />,
         },
-        {
-          name: "Shadcn/UI",
-          icon: <SiShadcnui className="text-[#FFF]" />,
-        },
+
         {
           name: "Drizzle",
           icon: <SiDrizzle className="text-[#00A7E1]" />,

@@ -1,11 +1,11 @@
 import { cloneElement, type JSX } from 'react';
 
 interface MainTechnologyProps {
-    technology: {
-        name: string;
-        icon: JSX.Element;
-        description: string;
-    };
+  technology: {
+    name: string;
+    icon: JSX.Element;
+    description?: string;
+  };
 }
 
 export default function MainTechnology({ technology }: MainTechnologyProps) {
