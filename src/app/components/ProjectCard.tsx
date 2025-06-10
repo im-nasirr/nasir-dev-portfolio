@@ -11,18 +11,18 @@ import { useInView } from "react-intersection-observer";
 import Hls from 'hls.js';
 
 type TProps = {
-    title: string;
-    description: string;
-    logo: string;
-    repoLink: string;
-    technologies: {
-        icon: React.ReactNode;
-        name: string;
-    }[];
-    link: string;
-    thumbnail: string;
-    previewImages?: string[]; // Array of preview images
-    previewVideos?: string[]; // Array of preview videos
+  title: string;
+  description: string;
+  logo: string;
+  repoLink?: string;
+  technologies: {
+    icon: React.ReactNode;
+    name: string;
+  }[];
+  link: string;
+  thumbnail: string;
+  previewImages?: string[]; // Array of preview images
+  previewVideos?: string[]; // Array of preview videos
 };
 
 type MediaItem = {
