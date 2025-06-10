@@ -1,37 +1,42 @@
 import { FaGithub, FaFacebook } from "react-icons/fa";
-import { FaLinkedin, FaSquareXTwitter, FaDiscord, FaThreads } from "react-icons/fa6";
+import {
+  FaLinkedin,
+  FaSquareXTwitter,
+  FaDiscord,
+  FaThreads,
+} from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { SiBluesky } from "react-icons/si";
 import {
-    RiNextjsFill,
-    RiTailwindCssFill,
-    RiOpenaiFill,
-    RiWordpressFill,
+  RiNextjsFill,
+  RiTailwindCssFill,
+  RiOpenaiFill,
+  RiWordpressFill,
 } from "react-icons/ri";
 import {
-    SiTypescript,
-    SiShadcnui,
-    SiPrisma,
-    SiWoocommerce,
-    SiReact,
-    SiSupabase,
-    SiExpress,
-    SiPuppeteer,
-    SiHtml5,
-    SiCss3,
-    SiJavascript,
-    SiNodedotjs,
-    SiPhp,
-    SiMysql,
-    SiMongodb,
-    SiGraphql,
-    SiFramer,
-    SiThreedotjs,
-    SiElectron,
-    SiDocker,
-    SiDrizzle,
-    SiMui,
-    SiGit,
+  SiTypescript,
+  SiShadcnui,
+  SiPrisma,
+  SiWoocommerce,
+  SiReact,
+  SiSupabase,
+  SiExpress,
+  SiPuppeteer,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiNodedotjs,
+  SiPhp,
+  SiMysql,
+  SiMongodb,
+  SiGraphql,
+  SiFramer,
+  SiThreedotjs,
+  SiElectron,
+  SiDocker,
+  SiDrizzle,
+  SiMui,
+  SiGit,
 } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
 import { TbApi, TbBrandReactNative } from "react-icons/tb";
@@ -91,26 +96,40 @@ export const siteConfig = {
       },
     ],
     aboutMe: `
-            <p style="margin-bottom: 1rem;">
-              Welcome to my profile! I'm a frontend developer with one year of experience crafting responsive, user-friendly, and visually engaging web applications. My core expertise lies in JavaScript, TypeScript, React, Next.js, Redux, HTML5, CSS3, and modern styling tools like Sass.
-            </p>
-            <p style="margin-bottom: 1rem;">
-              I specialize in building seamless and scalable interfaces that prioritize performance and user experience. I enjoy turning complex UI/UX designs into clean, efficient, and maintainable code. I'm also experienced with tools like Git and frameworks that support efficient development workflows.
-            </p>
-            <p style="margin-bottom: 1rem;">
-              I collaborate closely with designers and cross-functional teams to align development with business goals, always striving to bring intuitive digital experiences to life. My curiosity and drive for innovation keep me up-to-date with the latest trends and best practices in frontend development.
-            </p>
-            <p style="margin-bottom: 1rem;">
-              Let's connect! I'd love to explore how I can contribute to your projects and help turn your vision into reality.
-            </p>
+           <p>
+  Hello! I'm a Frontend Developer passionate about building modern, responsive, and visually appealing web experiences. With one year of experience, I leverage JavaScript, TypeScript, React, Next.js, Redux, HTML5, and CSS3 (including Sass) to create performant and user-centric interfaces.
+</p>
+<br />
+<p>
+  My focus is on transforming creative designs into clean, efficient, and scalable code. I value seamless user experiences and optimize for performance. I'm also comfortable with collaborative development environments, utilizing tools like Git to streamline workflows.
+</p>
+<br />
+<p>
+  I enjoy partnering with design and product teams to deliver digital solutions that meet strategic goals. My curiosity drives me to continuously learn and apply the latest frontend innovations. Let's discuss how I can contribute to your next project!
+</p>
         `,
     experiences: [
       {
         company: "Nexobe",
-        position: "Web Developer",
-        duration: "2023 - Present",
+        position:
+          "Web Developer @ Nexobe | Specializing in JavaScript & TypeScript",
+        duration: "2024 Oct- Present",
         description:
-          "Specializing in JavaScript & TypeScript development. Building responsive and user-friendly web applications using modern frameworks and tools. Collaborating with cross-functional teams to deliver high-quality solutions.",
+          "Worked as a Web Developer at Nexobe, contributing to AI-driven products using TypeScript and JavaScript. Built responsive, scalable solutions across brands like, Otteri AI,  pikcel AI and Snap.photo to enhance user experience and functionality.",
+      },
+      {
+        company: "Gridship",
+        position: "Web Developer",
+        duration: "2024 July - 2024 Oct",
+        description:
+          "Worked as a Web Developer at Gridship, contributing to the development of Treply — a B2B SMS marketing platform. Built scalable frontend solutions using TypeScript and JavaScript to enhance campaign automation, user engagement, and analytics for businesses",
+      },
+      {
+        company: "CodeNative X",
+        position: "Frontend Developer",
+        duration: "2024 Jan - 2024 July",
+        description:
+          "Worked as a Frontend Developer at CodeNative X, contributing to the development of a web application using TypeScript and JavaScript. Built responsive, scalable solutions to enhance user experience and functionality.",
       },
     ],
     projects: [
