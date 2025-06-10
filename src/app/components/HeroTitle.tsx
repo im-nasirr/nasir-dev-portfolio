@@ -17,13 +17,13 @@ export default function HeroTitle() {
         animate="visible"
         className="text-lg sm:text-xl md:text-2xl font-medium flex items-center w-full justify-center lg:justify-start"
       >
-        {/* <Image
+        <Image
           src="/logox.png"
           alt=" Portfolio Logo"
           className="w-7 h-7 mr-1 rounded-md"
           width={28}
           height={28}
-        /> */}
+        />
         <h1>Hey there, I'm Nasir! 👋</h1>
       </MotionTag>
       <MotionTag
