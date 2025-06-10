@@ -37,51 +37,34 @@ import { GrGraphQl } from "react-icons/gr";
 import { TbApi, TbBrandReactNative } from "react-icons/tb";
 import { DiRedis } from "react-icons/di";
 
-
 export const siteConfig = {
-  name: "Alvin Chang",
-  title: "Alvin Chang | Full-Stack Developer",
-  email: "alvin@studioaurora.io",
-  alias: "Aurora",
+  name: "Muhammad Ramzan Nasir",
+  title: "Muhammad Ramzan Nasir | Web Developer",
+  email: "mrammzannasir555@gmail.com",
+  alias: "Nasir",
   description:
-    "Alvin Chang is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Alvin creates digital solutions that are both functional and aesthetically pleasing.",
+    "Muhammad Ramzan Nasir is a frontend developer with one year of experience crafting responsive, user-friendly, and visually engaging web applications. Specializing in JavaScript, TypeScript, React, Next.js, Redux, HTML5, CSS3, and modern styling tools like Sass.",
   keywords:
-    "Alvin Chang, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
-  url: "https://alvinchang.dev",
+    "Muhammad Ramzan Nasir, web developer, frontend development, JavaScript, TypeScript, React, Next.js, Redux, HTML5, CSS3, Sass",
+  url: "https://nasir-portfolio.vercel.app",
   taglines: [
-    "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
-    "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
-    "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let's build the future, one pixel and one line of code at a time.",
+    "🚀 Web Developer @ Nexobe | Specializing in JavaScript & TypeScript",
+    "🎨 Crafting responsive, user-friendly, and visually engaging web applications",
+    "💡 Turning complex UI/UX designs into clean, efficient, and maintainable code",
   ],
-  titles: ["Full-Stack Developer", "NextJS Developer", "Wordpress Developer"],
+  titles: ["Web Developer", "Frontend Developer", "React Developer"],
   socialLinks: [
     {
-      icon: <FaGithub />,
-      url: "https://github.com/auroradream04",
+      icon: <IoIosMail />,
+      url: "mailto:mrammzannasir555@gmail.com",
     },
     {
       icon: <FaLinkedin />,
-      url: "https://www.linkedin.com/in/auroradream04/",
+      url: "https://www.linkedin.com/in/muhammad-ramzan-nasir-a60510211/",
     },
     {
-      icon: <FaSquareXTwitter />,
-      url: "https://x.com/aurora_dream04",
-    },
-    {
-      icon: <FaThreads />,
-      url: "https://www.threads.com/@schrodinger0404",
-    },
-    {
-      icon: <SiBluesky />,
-      url: "https://bsky.app/profile/alvinchang.dev",
-    },
-    {
-      icon: <FaDiscord />,
-      url: "https://discord.gg/pwYGjDebkF",
-    },
-    {
-      icon: <IoIosMail />,
-      url: "mailto:alvin@studioaurora.io",
+      icon: <FaFacebook />,
+      url: "https://web.facebook.com/profile.php?id=100032429956302",
     },
   ],
   sections: {
@@ -102,10 +85,6 @@ export const siteConfig = {
         id: "technologies",
         label: "TECHNOLOGIES",
       },
-      // {
-      //     id: "blogs",
-      //     label: "BLOGS",
-      // },
       {
         id: "contact",
         label: "CONTACT",
@@ -113,36 +92,34 @@ export const siteConfig = {
     ],
     aboutMe: `
             <p style="margin-bottom: 1rem;">
-              Hi! I'm Alvin, a <strong>full-stack developer</strong> specializing in building <strong>responsive websites</strong>, engaging blogs, e-commerce solutions, and interactive streaming platforms. I focus on crafting <strong>clean and efficient code</strong>, from polished front-end designs to robust back-end systems.
+              Welcome to my profile! I'm a frontend developer with one year of experience crafting responsive, user-friendly, and visually engaging web applications. My core expertise lies in JavaScript, TypeScript, React, Next.js, Redux, HTML5, CSS3, and modern styling tools like Sass.
             </p>
             <p style="margin-bottom: 1rem;">
-              When I'm not developing web applications, you'll find me experimenting in the kitchen or exploring the latest tech trends. Let's connect to discuss your next <strong>web or API project</strong>!
+              I specialize in building seamless and scalable interfaces that prioritize performance and user experience. I enjoy turning complex UI/UX designs into clean, efficient, and maintainable code. I'm also experienced with tools like Git and frameworks that support efficient development workflows.
+            </p>
+            <p style="margin-bottom: 1rem;">
+              I collaborate closely with designers and cross-functional teams to align development with business goals, always striving to bring intuitive digital experiences to life. My curiosity and drive for innovation keep me up-to-date with the latest trends and best practices in frontend development.
+            </p>
+            <p style="margin-bottom: 1rem;">
+              Let's connect! I'd love to explore how I can contribute to your projects and help turn your vision into reality.
             </p>
         `,
     experiences: [
       {
-        company: "Freelance",
-        position: "Full-stack Web Developer",
-        duration: "2024 - Present",
+        company: "Nexobe",
+        position: "Web Developer",
+        duration: "2023 - Present",
         description:
-          "Built responsive web apps, e-commerce platforms, and custom API solutions primarily using Next.js, Tailwind CSS, and TypeScript. Managed entire development lifecycles from initial client consultation and strategic planning to development, deployment, and ongoing support. Focused heavily on delivering high-performance, SEO-friendly solutions with modern, intuitive user experiences, ensuring client satisfaction through proactive communication and timely project delivery.",
-      },
-      {
-        company: "Altera Karna Business Corp.",
-        position: "Software Engineer",
-        duration: "2023 - 2024",
-        description:
-          "Developed and maintained various dynamic websites such as streaming services, interactive landing pages, and content-driven news platforms utilizing Next.js, WordPress, and Express.js. Engineered robust APIs and automated internal processes with advanced web scraping tools, significantly enhancing operational efficiency. Additionally, designed and built desktop applications using Electron to streamline internal workflows and support team productivity.",
+          "Specializing in JavaScript & TypeScript development. Building responsive and user-friendly web applications using modern frameworks and tools. Collaborating with cross-functional teams to deliver high-quality solutions.",
       },
     ],
     projects: [
       {
-        title: "Alvin Chang | Portfolio Website",
+        title: "Nasir Portfolio",
         description:
-          "This is my portfolio website. I built it to showcase my projects and skills. It is a static site built with Next.js, Tailwind CSS, and Shadcn/UI. I used the following technologies to build it:",
+          "My personal portfolio website showcasing my projects and skills. Built with Next.js, Tailwind CSS, and TypeScript.",
         logo: "/projects/portfolio/portfolio-logo.webp",
         thumbnail: "/projects/portfolio/portfolio-thumbnail.webp",
-        repoLink: "https://github.com/auroradream04/aurora-portfolio",
         technologies: [
           {
             icon: <RiNextjsFill className="text-[#FFF]" />,
@@ -161,7 +138,7 @@ export const siteConfig = {
             name: "TypeScript",
           },
         ],
-        link: "https://alvinchang.dev",
+        link: "https://nasir-portfolio.vercel.app",
         previewImages: [
           "/projects/portfolio/1.webp",
           "/projects/portfolio/2.webp",

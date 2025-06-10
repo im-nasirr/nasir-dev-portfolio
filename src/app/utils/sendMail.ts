@@ -19,11 +19,11 @@ export async function sendMail(name: string, email: string, message: string) {
         });
 
         const mailDetails = {
-            from: process.env.ZOHO_USER,
-            to: "alvin@studioaurora.io",
-            subject: `Contact form submission from ${name}`,
-            text: `From: ${name} <${email}>\n\n${message}`,
-            replyTo: email, // Add this line wahh
+          from: process.env.ZOHO_USER,
+          to: "mrammzannasir555@gmail.com",
+          subject: `Contact form submission from ${name}`,
+          text: `From: ${name} <${email}>\n\n${message}`,
+          replyTo: email, // Add this line wahh
         };
 
         if (!mailDetails) {

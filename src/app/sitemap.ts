@@ -12,15 +12,15 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     const posts = await fetchBlogs();
 
     return [
-        {
-            url: "https://alvinchang.dev",
-            lastModified: new Date(),
-        },
+      {
+        url: "https://nasir-portfolio.vercel.app",
+        lastModified: new Date(),
+      },
 
-        ...posts.map((post: TPost) => ({
-            url: `https://alvinchang.dev/blogs/${post.slug}`,
-            lastModified: new Date(post.modified_gmt),
-            priority: 0.8,
-        }))
+      ...posts.map((post: TPost) => ({
+        url: `https://nasir-portfolio.vercel.app/blogs/${post.slug}`,
+        lastModified: new Date(post.modified_gmt),
+        priority: 0.8,
+      })),
     ];
 }
