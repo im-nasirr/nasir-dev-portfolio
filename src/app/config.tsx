@@ -51,7 +51,7 @@ export const siteConfig = {
     "Muhammad Ramzan Nasir is a frontend developer with one year of experience crafting responsive, user-friendly, and visually engaging web applications. Specializing in JavaScript, TypeScript, React, Next.js, Redux, HTML5, CSS3, and modern styling tools like Sass.",
   keywords:
     "Muhammad Ramzan Nasir, web developer, frontend development, JavaScript, TypeScript, React, Next.js, Redux, HTML5, CSS3, Sass",
-  url: "https://nasir-portfolio.vercel.app",
+  url: "https://nasir-dev-portfolio.vercel.app",
   taglines: [
     "🚀 Web Developer @ Nexobe | Specializing in JavaScript & TypeScript",
     "🎨 Crafting responsive, user-friendly, and visually engaging web applications",
