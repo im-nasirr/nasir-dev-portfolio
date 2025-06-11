@@ -23,29 +23,29 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: siteConfig.title,
-  description: siteConfig.description,
-  keywords: siteConfig.keywords,
-  alternates: {
-    canonical: siteConfig.url,
-  },
-  openGraph: {
-    title: siteConfig.title,
-    description: siteConfig.description,
-    url: siteConfig.url,
-    type: "website",
-    siteName: siteConfig.title,
-    images: [
-      {
-        url: "/Portfolio.png",
-        width: 1920,
-        height: 1080,
-        alt: "Nasir Portfolio",
-      },
-    ],
-  },
-};
+// export const metadata: Metadata = {
+//   title: siteConfig.title,
+//   description: siteConfig.description,
+//   keywords: siteConfig.keywords,
+//   alternates: {
+//     canonical: siteConfig.url,
+//   },
+//   openGraph: {
+//     title: siteConfig.title,
+//     description: siteConfig.description,
+//     url: siteConfig.url,
+//     type: "website",
+//     siteName: siteConfig.title,
+//     images: [
+//       {
+//         url: "/Portfolio.png",
+//         width: 1920,
+//         height: 1080,
+//         alt: "Nasir Portfolio",
+//       },
+//     ],
+//   },
+// };
 
 export default function RootLayout({
   children,
