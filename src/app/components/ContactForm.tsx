@@ -20,8 +20,10 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import SectionLabel from "./SectionLabel";
-import { sendMail } from "../utils/sendMail";
+
 import { toast } from "sonner";
+import { sendMail } from "@/lib/sendMail";
+
 
 const formSchema = z.object({
     name: z.string().min(2, {
