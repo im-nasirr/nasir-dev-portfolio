@@ -1,19 +1,19 @@
-import BlogContent from "@/app/components/BlogContent";
-import BlogHeader from "@/app/components/BlogHeader";
-import { fetchBlog } from "@/app/utils/fetchWordpress";
-import { createHighlighter } from "shiki";
-import { JSDOM } from "jsdom";
-import { Metadata } from "next";
-import { stripHtmlAndDecode } from "@/app/utils/helpers";
-import Footer from "@/app/components/Footer";
-import SocialIcons from "@/app/components/SocialIcons";
-import OpenToWorkBanner from "@/app/components/OpenToWorkBanner";
+// import BlogContent from "@/app/components/BlogContent";
+// import BlogHeader from "@/app/components/BlogHeader";
+// import { fetchBlog } from "@/app/utils/fetchWordpress";
+// import { createHighlighter } from "shiki";
+// import { JSDOM } from "jsdom";
+// import { Metadata } from "next";
+// import { stripHtmlAndDecode } from "@/app/utils/helpers";
+// import Footer from "@/app/components/Footer";
+// import SocialIcons from "@/app/components/SocialIcons";
+// import OpenToWorkBanner from "@/app/components/OpenToWorkBanner";
 
-type TProps = {
-    params: Promise<{
-        slug: string;
-    }>;
-};
+// type TProps = {
+//     params: Promise<{
+//         slug: string;
+//     }>;
+// };
 
 // export async function generateMetadata(props: TProps): Promise<Metadata> {
 //     const params = await props.params;
