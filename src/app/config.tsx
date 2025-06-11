@@ -115,7 +115,7 @@ export const siteConfig = {
           "Web Developer @ Nexobe | Specializing in JavaScript & TypeScript",
         duration: "2024 Oct- Present",
         description:
-          "Worked as a Web Developer at Nexobe, contributing to AI-driven products using TypeScript and JavaScript. Built responsive, scalable solutions across brands like, Otteri AI,  pikcel AI and Snap.photo to enhance user experience and functionality.",
+          "Working as a Web Developer at Nexobe, contributing to AI-driven products using TypeScript and JavaScript. Built responsive, scalable solutions across brands like, Otteri AI,  pikcel AI and Snap.photo to enhance user experience and functionality.",
       },
       {
         company: "Gridship",
