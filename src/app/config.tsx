@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { SiBluesky, SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { HiEnvelope } from "react-icons/hi2";
 import {
   RiNextjsFill,
   RiTailwindCssFill,
@@ -57,18 +58,23 @@ export const siteConfig = {
     "🎨 Crafting responsive, user-friendly, and visually engaging web applications",
     "💡 Turning complex UI/UX designs into clean, efficient, and maintainable code",
   ],
-  titles: ["Web Developer", "Frontend Developer", "React Developer", ""],
+  titles: [
+    "Web Developer",
+    "Frontend Developer",
+    "React Developer",
+    "Postgres",
+  ],
   socialLinks: [
     {
-      icon: <IoIosMail />,
+      icon: <HiEnvelope size={19} />,
       url: "mailto:mrammzannasir555@gmail.com",
     },
     {
-      icon: <FaLinkedin />,
+      icon: <FaLinkedin size={19} />,
       url: "https://www.linkedin.com/in/muhammad-ramzan-nasir-a60510211/",
     },
     {
-      icon: <FaFacebook />,
+      icon: <FaFacebook size={19} />,
       url: "https://web.facebook.com/profile.php?id=100032429956302",
     },
   ],
