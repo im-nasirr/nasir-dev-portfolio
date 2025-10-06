@@ -16,11 +16,11 @@ export default function Footer({ isSticky, noAnimate }: TProps) {
         variants={!isSticky ? slideInFromTop(1) : slideInFromLeft(1)}
         initial={noAnimate ? "visible" : "hidden"}
         animate="visible"
-        className={`text-center lg:text-left text-slate-350 text-[9px] w-full mt-8 ${
+        className={`text-center lg:text-left text-slate-350 text-[9px] w-full mt-4 ${
           noAnimate && "!block lg:!block p-2 lg:!text-center"
         } ${isSticky ? "hidden lg:block" : "lg:hidden"}`}
       >
-        <p className="mb-0 leading-none">
+        {/* <p className="mb-0 leading-none">
           Made with ❤️ by{" "}
           <Link
             className="underline uppercase font-bold text-blue-400 hover:text-pink-400 transition-colors duration-300"
@@ -31,8 +31,8 @@ export default function Footer({ isSticky, noAnimate }: TProps) {
           >
             {siteConfig.alias}
           </Link>
-        </p>
-        <p className="mb-0">
+        </p> */}
+        <p className="mb-0 text-[11px]">
           &copy; 2025 {siteConfig.title}. All rights reserved.
         </p>
       </motion.footer>

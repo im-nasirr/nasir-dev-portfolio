@@ -21,7 +21,10 @@ export default async function Home() {
     "@type": "Person",
     name: siteConfig.name,
     url: siteConfig.url,
-    keywords: siteConfig.keywords,
+    sameAs: siteConfig.socialLinks?.map((s) => s.url).filter(Boolean),
+    jobTitle: siteConfig.titles?.[0],
+    description: siteConfig.description,
+    knowsAbout: siteConfig.keywords?.split(",").map((k) => k.trim()),
   };
 
   return (
@@ -39,6 +42,8 @@ export default async function Home() {
               taglines={siteConfig.taglines}
               className="pl-1 text-center lg:text-start text-xs lg:text-sm mt-4 min-h-20 max-w-[500px] text-slate-350"
             />
+            <meta itemProp="name" content={siteConfig.name} />
+            <meta itemProp="url" content={siteConfig.url} />
             <TableOfContents />
             <HireMeButton isSticky />
           </div>

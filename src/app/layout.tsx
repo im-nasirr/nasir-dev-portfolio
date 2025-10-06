@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import StarsCanvas from "./components/StarBackground";
 import Glow from "./components/Glow";
@@ -22,6 +22,73 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 // });
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: siteConfig.title,
+    template: "%s | " + siteConfig.alias,
+  },
+  description: siteConfig.description,
+  keywords: siteConfig.keywords,
+  applicationName: siteConfig.title,
+  generator: "Next.js",
+  creator: siteConfig.name,
+  authors: [{ name: siteConfig.name, url: siteConfig.url }],
+  alternates: {
+    canonical: siteConfig.url,
+  },
+  icons: {
+    icon: [
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
+  openGraph: {
+    type: "website",
+    url: siteConfig.url,
+    title: siteConfig.title,
+    siteName: siteConfig.title,
+    description: siteConfig.description,
+    images: [
+      {
+        url: "/Portfolio.png",
+        width: 1920,
+        height: 1080,
+        alt: "Nasir Portfolio",
+      },
+    ],
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.title,
+    description: siteConfig.description,
+    images: ["/Portfolio.png"],
+    creator: "@imnasirr", // update if different
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  category: "technology",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#000000",
+  colorScheme: "dark",
+};
 
 // export const metadata: Metadata = {
 //   title: siteConfig.title,
@@ -61,7 +128,7 @@ export default function RootLayout({
           href="/favicon-48x48.png"
           sizes="48x48"
         />
-        <link rel="icon" type="image/svg+xml" href="/favicon-48x48.png" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"

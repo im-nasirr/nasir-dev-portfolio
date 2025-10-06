@@ -97,15 +97,19 @@ export const siteConfig = {
     ],
     aboutMe: `
            <p>
-            Hello! I'm a Frontend Developer passionate about building modern, responsive, and visually appealing web experiences. With one year of experience, I leverage JavaScript, TypeScript, React, Next.js, Redux, HTML5, and CSS3 (including Tailwind CSS) to create performant and user-centric interfaces.
+            I build products that live at the intersection of elegant frontend experiences and robust backend systems. Over the past year, I’ve evolved from a frontend-focused developer into a full-stack engineer, working across authentication, billing, databases, and modern development tooling.
           </p>
             <br />
             <p>
-              My focus is on transforming creative designs into clean, efficient, and scalable code. I value seamless user experiences and optimize for performance. I'm also comfortable with collaborative development environments, utilizing tools like Git to streamline workflows.
+              My toolkit spans JavaScript, TypeScript, React, Next.js, and Redux, combined with Supabase, Postgres, Stripe, Auth.js, Resend, and Resolve ORM on the backend. I’m fluent in building authentication flows, integrating payments, and shaping scalable database structures.
             </p>
             <br />
             <p>
-              I enjoy partnering with design and product teams to deliver digital solutions that meet strategic goals. My curiosity drives me to continuously learn and apply the latest frontend innovations. Let's discuss how I can contribute to your next project!
+              I work in fast-paced environments, shipping end-to-end features that balance performance, usability, and clean architecture. I enjoy navigating complex technical problems, whether that’s designing UI with Chakra UI and TanStack Router or architecting backend logic with tRPC and monorepos.
+            </p>
+            <br />
+            <p>
+              Always learning. Always building. 🚀
             </p>
         `,
     experiences: [
