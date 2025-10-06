@@ -48,7 +48,7 @@ export const siteConfig = {
   email: "mrammzannasir555@gmail.com",
   alias: "Nasir",
   description:
-    "Muhammad Ramzan Nasir is a frontend developer with one year of experience crafting responsive, user-friendly, and visually engaging web applications. Specializing in JavaScript, TypeScript, React, Next.js, Redux, HTML5, CSS3, and modern styling tools like Sass.",
+    "Full‑stack developer building products at the intersection of elegant frontend experiences and robust backend systems. Shipping end‑to‑end features across authentication, billing, and scalable databases with JavaScript, TypeScript, React, Next.js, Redux, Supabase, Postgres, Stripe, Auth.js, and Resend—balancing performance, usability, and clean architecture.",
   keywords:
     "Muhammad Ramzan Nasir, web developer, frontend development, JavaScript, TypeScript, React, Next.js, Redux, HTML5, CSS3, Sass",
   url: "https://nasir-dev-portfolio.vercel.app",
@@ -57,7 +57,7 @@ export const siteConfig = {
     "🎨 Crafting responsive, user-friendly, and visually engaging web applications",
     "💡 Turning complex UI/UX designs into clean, efficient, and maintainable code",
   ],
-  titles: ["Web Developer", "Frontend Developer", "React Developer"],
+  titles: ["Web Developer", "Frontend Developer", "React Developer", ""],
   socialLinks: [
     {
       icon: <IoIosMail />,
