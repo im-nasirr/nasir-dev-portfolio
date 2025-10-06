@@ -1,4 +1,4 @@
-import { FaGithub, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaInstagram } from "react-icons/fa";
 import {
   FaLinkedin,
   FaSquareXTwitter,
@@ -68,6 +68,14 @@ export const siteConfig = {
     {
       icon: <HiEnvelope size={19} />,
       url: "mailto:mrammzannasir555@gmail.com",
+    },
+    {
+      icon: <FaGithub size={19} />,
+      url: "https://github.com/im-nasirr",
+    },
+    {
+      icon: <FaInstagram size={19} />,
+      url: "https://www.instagram.com/im_nasirr/",
     },
     {
       icon: <FaLinkedin size={19} />,
